@@ -1,0 +1,48 @@
+/* styles.css */
+/* SimpleStatus stylesheet */
+
+#navbar{
+    padding: 10px;
+    width: 100%;
+}
+.navlink{
+    padding: 10px;
+    background-color: #eee;
+    border: 1px solid black;
+    margin: 2px;
+    text-decoration: none;
+    color: #000;
+}
+
+.navlink.active{
+    background-color: #bbb;
+}
+
+.navlink:hover{
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+#servertable{
+    padding: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th,td {
+    border: 1px solid;
+    padding: 5px;
+    vertical-align: top;
+}
+
+.fpmtable{
+    width: 100%;
+    padding-bottom: 20px;
+    background-color: #eee;
+}
+
+#notes{
+    padding: 20px;
+}
