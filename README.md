@@ -14,17 +14,10 @@ All files should be in the same folder/url.
 
 Currently, has a Status page and optional Notes and PHPInfo pages.
 
-Make sure the FPM status option is enabled, e.g. in > /etc/php/X.X/fpm/pool.d/www.conf
+Make sure the FPM status option is enabled and responds, e.g. in > /etc/php/X.X/fpm/pool.d/www.conf
 
-(see the serverNotes page for a few more details)
+(see the serverNotes.html.php page for a few more details)
 
 Written and tested on Debian/Ubuntu setups.
-
-* index.php : Main page wrapper
-* styles.css : A few styles for the default look
-* serverDetails.html.php : HTML for server details table
-* serverNotes.html.php : HTML for adding your own notes 
-* - (as an example this contains some notes on how I managed to get FPM setup)
-
 
 Author: John Day 
